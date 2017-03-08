@@ -1,0 +1,29 @@
+body{
+	background-color: white;
+}
+svg{
+
+	display: block;
+	margin: auto;
+}
+
+h4{
+	font-weight: bold;
+	margin-top: 5px;
+}
+.toolTip {
+	position: absolute;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 2px;
+	width: 300px;
+	height: 120px;
+	font-family: Helvetica;
+	background-color: white;
+	border-radius: 5px;
+	pointer-events: none;
+	opacity: 0;
+	border-style: solid;
+	border-color: black;
+}
